@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<job>
+  <name>Al EAM potential</name>
+
+  <fitting>
+    <BFGS conv-threshold='1e-10' max-iter='200' />
+  </fitting>
+  
+  <atom-types>
+    <species>Al</species>
+  </atom-types>
+
+  <potentials>
+    <xi:include href='potential.xml' xmlns:xi='http://www.w3.org/2003/XInclude' />
+  </potentials>
+
+  <structures>
+    <xi:include href='structures.xml' xmlns:xi='http://www.w3.org/2003/XInclude' />
+  </structures>
+
+</job>

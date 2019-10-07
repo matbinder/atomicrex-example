@@ -1,0 +1,83 @@
+<eam id='Al potential' species-a='*' species-b='*'>
+
+  <mapping>
+    <pair-interaction species-a='*' species-b='*' function='V' />
+    <electron-density species-a='*' species-b='*' function='rho' />
+    <embedding-energy species='*' function='F' />
+  </mapping>
+  
+  <functions>
+
+    <user-function id='V'>
+      <input-var>r</input-var>
+      <expression>
+	A * exp(-lambda * r)
+      </expression>
+      <derivative>
+	-lambda * A * exp(-lambda * r)
+      </derivative>
+      <param name='A'>500</param>
+      <param name='lambda'>2.73</param>
+      <fit-dof>
+	<A/>
+	<lambda/>
+      </fit-dof>
+      <screening>
+	<user-function id='rho_screening'>
+	  <cutoff>6.5</cutoff>
+	  <input-var>r</input-var>
+	  <expression>
+	    1 - 1/(1 + ((r - cutoff) / h)^4)
+	  </expression>
+	  <derivative>
+	    4 * h^4 * (r - cutoff)^3 / ((h^4 + (r - cutoff)^4)^2)
+	  </derivative>
+	  <param name='h'>3</param>
+	</user-function>
+      </screening>
+    </user-function>
+
+    <user-function id='rho'>
+      <input-var>r</input-var>
+      <expression>
+	exp(-twomu * r)
+      </expression>
+      <derivative>
+	-twomu * exp(-twomu * r)
+      </derivative>
+      <param name='twomu'>1.14</param>
+      <fit-dof>
+	<twomu/>
+      </fit-dof>
+      <screening>
+	<user-function id='rho_screening'>
+	  <cutoff>6.5</cutoff>
+	  <input-var>r</input-var>
+	  <expression>
+	    1 - 1/(1 + ((r - cutoff) / h)^4)
+	  </expression>
+	  <derivative>
+	    4 * h^4 * (r - cutoff)^3 / ((h^4 + (r - cutoff)^4)^2)
+	  </derivative>
+	  <param name='h'>3</param>
+	</user-function>
+      </screening>
+    </user-function>
+
+    <user-function id='F'>
+      <input-var>rho</input-var>
+      <expression>
+	-D * sqrt(rho)
+      </expression>
+      <derivative>
+        -D / (2 * sqrt(rho))
+      </derivative>
+      <param name='D'>8</param>
+      <fit-dof>
+	<D/>
+      </fit-dof>
+    </user-function>
+    
+  </functions>
+  
+</eam>

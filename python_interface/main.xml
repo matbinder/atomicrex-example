@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<job>
+  <name>EAM potential</name>
+
+  <atom-types>
+    <species>Al</species>
+  </atom-types>
+
+  <potentials>
+    <xi:include href='potential.xml' xmlns:xi='http://www.w3.org/2003/XInclude' />
+  </potentials>
+
+  <structures>
+  </structures>
+
+</job>

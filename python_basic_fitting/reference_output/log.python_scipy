@@ -1,0 +1,41 @@
+initial residual: 1480.32
+final residual: 1002.29
+()
+ Structure: bcc
+total-energy: -2.77015 eV
+atomic-energy: -2.77015 eV/atom (target: -3.25 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 287.814
+total-volume: 8.788 A^3
+atomic-volume: 8.788 A^3/atom
+lattice-parameter: 2.6 A [2:3.3]
+()
+ Structure: diamond
+total-energy: -5.16885 eV
+atomic-energy: -2.58442 eV/atom (target: -2.36 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 62.957
+total-volume: 31.25 A^3
+atomic-volume: 15.625 A^3/atom
+lattice-parameter: 5 A [4:6]
+()
+ Structure: fcc
+total-energy: -3.60106 eV
+atomic-energy: -3.60106 eV/atom (target: -3.36 eV/atom) Abs. weight: 0.15625; Tolerance: 0.01; Weighted residual: 90.7944
+total-volume: 13.2414 A^3
+atomic-volume: 13.2414 A^3/atom
+bulk-modulus: 85.9308 GPa (target: 79 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 0.938209
+C11: 98.8996 GPa (target: 114 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 4.45358
+C12: 79.4466 GPa (target: 61.9 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 6.01336
+C44: 44.4446 GPa (target: 31.6 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 3.22232
+lattice-parameter: 3.75547 A (target: 4.05 A) Abs. weight: 0.15625; Tolerance: 0.005; Weighted residual: 542.169 (relaxed) [3:5]
+()
+ Structure: hcp
+total-energy: -6.54788 eV
+atomic-energy: -3.27394 eV/atom (target: -3.33 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 3.92864
+total-volume: 37.4123 A^3
+atomic-volume: 18.7061 A^3/atom
+lattice-parameter: 3 A [2:3.3]
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.77894
+   Al[EAM].rho[user-function].twomu: 1.21223
+   Al[EAM].F[user-function].D: 7.9934
+-------------------------------------------------------

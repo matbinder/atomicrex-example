@@ -1,0 +1,20 @@
+# Values taken from:
+# Michael Mueller et al
+# J. Phys.: Condens. Matter 19 (2007) 326220
+
+# Potential file was prepared by A. Stukowski (TU Darmstadt)
+
+# Parameters converted from K. Albe's analytical bond-order formalism to LAMMPS Tersoff format:
+# gamma = gamma
+# lambda3 = 2*mu
+# c = c
+# d = d
+# R = Rc
+# D = Dc
+# costheta0 = -h
+# lambda1 = beta*sqrt(2*S) 
+# lambda2 = beta*sqrt(2/S) 
+# A = D0/(S-1)*exp(lambda1*r0) 
+# B = S*D0/(S-1)*exp(lambda2*r0) 
+
+Fe Fe Fe 1.0 0.0115751 0 1.2898716 0.3413219 0.26 1.0 1.0 1.37635404 67.8647723 3.15 0.2 2.84810441 953.948593

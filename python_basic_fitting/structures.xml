@@ -1,0 +1,44 @@
+<group>
+
+  <fcc-lattice id='fcc' relative-weight='5'>
+    <atom-type>Al</atom-type>
+    <lattice-parameter>4.05</lattice-parameter>
+    <properties>
+      <lattice-parameter relative-weight='2' fit='true' min='3' max='5' target='4.05' />
+      <atomic-energy relative-weight='2' fit='true' target='-3.36' />
+      <bulk-modulus fit='true' target='79' relative-weight='1'/>
+      <C11 fit='true' target='114' relative-weight='1'/>
+      <C12 fit='true' target='61.9' relative-weight='1'/>
+      <C44 fit='true' target='31.6' relative-weight='1'/>
+    </properties>
+  </fcc-lattice>
+  
+  <bcc-lattice id='bcc'>
+    <atom-type>Al</atom-type>
+    <lattice-parameter>2.6</lattice-parameter>
+    <properties>
+      <lattice-parameter min='2.0' max='3.3' fit='true' target='4.0'/>
+      <atomic-energy relative-weight='0.1' fit='true' target='-3.25' />
+    </properties>
+  </bcc-lattice>
+  
+  <hcp-lattice id='hcp'>
+    <atom-type>Al</atom-type>
+    <lattice-parameter>3.0</lattice-parameter>
+    <ca-ratio>1.6</ca-ratio>
+    <properties>
+      <lattice-parameter min='2.0' max='3.3' />
+      <atomic-energy relative-weight='0.1' fit='true' target='-3.33' />
+    </properties>
+  </hcp-lattice>
+  
+  <diamond-lattice id='diamond'>
+    <atom-type>Al</atom-type>
+    <lattice-parameter>5.0</lattice-parameter>
+    <properties>
+      <lattice-parameter min='4.0' max='6.0' />
+      <atomic-energy relative-weight='0.01' fit='true' target='-2.36' />
+    </properties>
+  </diamond-lattice>
+
+</group>

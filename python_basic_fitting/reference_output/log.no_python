@@ -1,0 +1,111 @@
+This is program version 0.1.6
+Reading job file main.xml
+-------------------------------------------------------
+Parsing input file(s)
+-------------------------------------------------------
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.73
+   Al[EAM].rho[user-function].twomu: 1.14
+   Al[EAM].F[user-function].D: 8
+-------------------------------------------------------
+-------------------------------------------------------
+Number of properties being fitted: 9
+-------------------------------------------------------
+  iter= 1 residual= 1480.32 grad= 20791.4
+  iter= 2 residual= 210872 grad= 778758
+  iter= 3 residual= 1160.52 grad= 13390.1
+  iter= 4 residual= 1160.52 grad= 13390.1
+  iter= 5 residual= 1121.04 grad= 6634.79
+  iter= 6 residual= 1121.04 grad= 6634.79
+  iter= 7 residual= 1104.36 grad= 5922.8
+  iter= 8 residual= 1104.36 grad= 5922.8
+  iter= 9 residual= 1105.91 grad= 14901.1
+  iter= 10 residual= 1085.19 grad= 6171.57
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.75779
+   Al[EAM].rho[user-function].twomu: 1.18125
+   Al[EAM].F[user-function].D: 7.99642
+-------------------------------------------------------
+  iter= 11 residual= 1085.19 grad= 6171.57
+  iter= 12 residual= 1089.99 grad= 11320.4
+  iter= 13 residual= 1061.54 grad= 5547.1
+  iter= 14 residual= 1061.54 grad= 5547.1
+  iter= 15 residual= 1686.51 grad= 8513.32
+  iter= 16 residual= 1086.35 grad= 3507.56
+  iter= 17 residual= 1058.83 grad= 5150.04
+  iter= 18 residual= 1058.83 grad= 5150.04
+  iter= 19 residual= 1116.08 grad= 7584.27
+  iter= 20 residual= 1054.8 grad= 3933.06
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.79747
+   Al[EAM].rho[user-function].twomu: 1.21346
+   Al[EAM].F[user-function].D: 7.99374
+-------------------------------------------------------
+  iter= 21 residual= 1054.8 grad= 3933.06
+  iter= 22 residual= 1278.59 grad= 2799.79
+  iter= 23 residual= 1063.77 grad= 2936.99
+  iter= 24 residual= 1055.87 grad= 3544.03
+  iter= 25 residual= 1054.98 grad= 4030.37
+  iter= 26 residual= 1054.83 grad= 3909.24
+  iter= 27 residual= 1054.81 grad= 3651.84
+  iter= 28 residual= 1054.8 grad= 3683.48
+  iter= 29 residual= 1054.81 grad= 9896.22
+  iter= 30 residual= 1054.81 grad= 9763.95
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.79747
+   Al[EAM].rho[user-function].twomu: 1.21346
+   Al[EAM].F[user-function].D: 7.99374
+-------------------------------------------------------
+  iter= 31 residual= 1054.81 grad= 9642.46
+  iter= 32 residual= 1054.81 grad= 9248.07
+  iter= 33 residual= 1054.81 grad= 9641.22
+  iter= 34 residual= 1054.8 grad= 9445.2
+  iter= 35 residual= 1054.8 grad= 9445.2
+-------------------------------------------------------
+Potential parameters being optimized (#dof=4):
+   Al[EAM].V[user-function].A: 500
+   Al[EAM].V[user-function].lambda: 2.79747
+   Al[EAM].rho[user-function].twomu: 1.21346
+   Al[EAM].F[user-function].D: 7.99374
+-------------------------------------------------------
+Fitting process complete.
+-------------------------------------------------------
+Computing structure properties
+Structure 'fcc':
+   total-energy: -3.6615 eV
+   atomic-energy: -3.6615 eV/atom (target: -3.36 eV/atom) Abs. weight: 0.15625; Tolerance: 0.01; Weighted residual: 142.035
+   total-volume: 12.9435 A^3
+   atomic-volume: 12.9435 A^3/atom
+   bulk-modulus: 88.415 GPa (target: 79 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 1.7313
+   C11: 101.824 GPa (target: 114 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 2.8957
+   C12: 81.712 GPa (target: 61.9 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 7.6663
+   C44: 45.7691 GPa (target: 31.6 GPa) Abs. weight: 0.078125; Tolerance: 2; Weighted residual: 3.92113
+   lattice-parameter: 3.72709 A (target: 4.05 A) Abs. weight: 0.15625; Tolerance: 0.005; Weighted residual: 651.68 (relaxed) [3:5]
+Structure 'bcc':
+   total-energy: -2.92726 eV
+   atomic-energy: -2.92726 eV/atom (target: -3.25 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 130.203
+   total-volume: 8.788 A^3
+   atomic-volume: 8.788 A^3/atom
+   lattice-parameter: 2.6 A [2:3.3]
+Structure 'hcp':
+   total-energy: -6.58809 eV
+   atomic-energy: -3.29404 eV/atom (target: -3.33 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 1.61616
+   total-volume: 37.4123 A^3
+   atomic-volume: 18.7061 A^3/atom
+   lattice-parameter: 3 A [2:3.3]
+Structure 'diamond':
+   total-energy: -5.32148 eV
+   atomic-energy: -2.66074 eV/atom (target: -2.36 eV/atom) Abs. weight: 0.125; Tolerance: 0.01; Weighted residual: 113.056
+   total-volume: 31.25 A^3
+   atomic-volume: 15.625 A^3/atom
+   lattice-parameter: 5 A [4:6]
+-------------------------------------------------------
+-------------------------------------------------------

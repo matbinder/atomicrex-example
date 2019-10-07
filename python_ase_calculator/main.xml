@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<job>
+  <name>ase calculator</name>
+
+  <atom-types>
+    <species>Fe</species>
+  </atom-types>
+
+  <potentials>
+    <abop id='Fe-Potential' species-a='*' species-b='*'>
+      <param-file>Fe.tersoff</param-file>
+    </abop>  
+  </potentials>
+
+  <structures>
+  </structures>
+
+</job>
